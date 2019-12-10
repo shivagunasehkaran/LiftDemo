@@ -6,7 +6,7 @@ import theme from '../../../themes';
 
 class Detail extends Component {
     static navigationOptions = ({navigation}) => ({
-        title: ('Detail screen'),
+        title: ('Detail Screen'),
         headerStyle: {
             backgroundColor: theme.colors.buttonColor,
         },
