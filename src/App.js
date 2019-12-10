@@ -41,11 +41,11 @@ const TabNavigator = createBottomTabNavigator(
             navigationOptions: {
                 tabBarLabel: ({tintColor}) => (
                     <Text style={{textAlign: 'center', fontSize: 10, color: tintColor}}>
-                        {('Detail')}
+                        {('Details')}
                     </Text>
                 ),
                 tabBarIcon: ({horizontal, tintColor}) =>
-                    <Icon name="edit" size={horizontal ? 20 : 25} color={tintColor} />,
+                    <Icon name="bars" size={horizontal ? 20 : 25} color={tintColor} />,
             },
         },
     },
