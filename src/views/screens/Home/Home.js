@@ -9,9 +9,9 @@ class Home extends Component {
             backgroundColor: theme.colors.buttonColor,
         },
         headerRight: (
-            <Button style={{paddingRight: 50, color: theme.colors.black}}
-                    onPress={() => navigation.navigate('Detail')}
-                    title={('Start Run')} />
+            <Button title={('Start Run')}
+                    color="#000000"
+                    onPress={() => navigation.navigate('Detail')} />
         ),
     });
 
