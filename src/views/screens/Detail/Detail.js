@@ -3,7 +3,7 @@ import {StyleSheet, Text, View} from 'react-native';
 import theme from '../../../themes';
 
 class Detail extends Component {
-    static navigationOptions = () => ({
+    static navigationOptions = ({navigation}) => ({
         title: ('Detail Screen'),
         headerStyle: {
             backgroundColor: theme.colors.buttonColor,
@@ -11,13 +11,14 @@ class Detail extends Component {
     });
 
     render() {
+        const orderedList = this.props.navigation.getParam('orderedList');
         return (
             <View>
                 <Text style={styles.titleText}>
                     {('Order of Execution is')}
                 </Text>
                 <Text style={styles.detailText}>
-                    {('No value')}
+                    {orderedList}
                 </Text>
             </View>
         );

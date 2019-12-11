@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
-import {Text, View, StyleSheet, FlatList, Alert, ActivityIndicator, TouchableOpacity} from 'react-native';
+import {ActivityIndicator, FlatList, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import theme from '../../../themes';
-import {navigate} from 'react-navigation';
 
 class Home extends Component {
     static navigationOptions = () => ({
@@ -15,6 +14,9 @@ class Home extends Component {
         super(props);
         this.state = {
             loading: true,
+            upliftArray: [],
+            downLiftArray: [],
+            getOrderedList: [],
         };
     }
 
@@ -36,9 +38,25 @@ class Home extends Component {
         );
     };
 
+    getOrderedLift = (uplLftArray, downLiftArray) => {
+        uplLftArray.sort();
+        downLiftArray.sort();
+        downLiftArray.reverse();
+        const orderedArray = uplLftArray.concat(downLiftArray);
+        this.props.navigation.navigate('Detail', {
+            orderedList: orderedArray,
+        });
+        return orderedArray;
+    };
+
     //handling onPress action
-    getListViewItem = (item) => {
-        Alert.alert(item.key);
+    getUpLiftItem = (item) => {
+        this.state.upliftArray.push(item.index);
+    };
+
+    //handling onPress action
+    getDownLiftItem = (item) => {
+        this.state.downLiftArray.push(item.index);
     };
 
     renderItem = (item) => {
@@ -52,14 +70,18 @@ class Home extends Component {
                         width: 100,
                         backgroundColor: theme.colors.liftColor,
                     }} />
-                    <Text style={styles.item} onPress={this.getListViewItem.bind(this, item)}>{item.key}</Text>
+                    <Text style={styles.item} onPress={this.getUpLiftItem.bind(this, item)}>{item.upLift}</Text>
+                    <Text style={styles.item} onPress={this.getDownLiftItem.bind(this, item)}>{item.downLift}</Text>
                 </View>
             </TouchableOpacity>
         );
     };
 
+    handleStartRun = () => {
+        this.getOrderedLift(this.state.upliftArray, this.state.downLiftArray);
+    };
+
     render() {
-        const {navigate} = this.props.navigation;
         if (this.state.loading) {
             return (
                 <View style={styles.loader}>
@@ -71,20 +93,20 @@ class Home extends Component {
             <View style={styles.container}>
                 <FlatList
                     data={[
-                        {key: 'Lift Floor 6'},
-                        {key: 'Lift Floor 5'},
-                        {key: 'Lift Floor 4'},
-                        {key: 'Lift Floor 3'},
-                        {key: 'Lift Floor 2'},
-                        {key: 'Lift Floor 1'},
-                        {key: 'Lift Floor G'},
+                        {upLift: 'Up Lift 6', downLift: 'Down Lift 6', index: 6},
+                        {upLift: 'Up Lift 5', downLift: 'Down Lift 5', index: 5},
+                        {upLift: 'Up Lift 4', downLift: 'Down Lift 4', index: 4},
+                        {upLift: 'Up Lift 3', downLift: 'Down Lift 3', index: 3},
+                        {upLift: 'Up Lift 2', downLift: 'Down Lift 2', index: 2},
+                        {upLift: 'Up Lift 1', downLift: 'Down Lift 1', index: 1},
+                        {upLift: 'Up Lift G', downLift: 'Down Lift G', index: 0},
                     ]}
                     renderItem={({item}) => this.renderItem(item)}
                     ItemSeparatorComponent={this.renderSeparator}
                 />
                 <TouchableOpacity
                     style={styles.startRunButton}
-                    onPress={() => navigate('Detail')}
+                    onPress={this.handleStartRun}
                     underlayColor='#fff'>
                     <Text style={styles.startRunText}>Start Run</Text>
                 </TouchableOpacity>
@@ -99,17 +121,14 @@ const styles = StyleSheet.create({
     },
     item: {
         paddingTop: 30,
-        paddingLeft: 100,
+        paddingLeft: 50,
         fontSize: 19,
-        height: 90,
+        height: 100,
     },
     startRunButton: {
         paddingTop: 15,
         paddingBottom: 15,
         backgroundColor: theme.colors.buttonColor,
-        borderRadius: 15,
-        borderWidth: 1,
-        borderColor: theme.colors.cardBackground,
     },
     startRunText: {
         color: theme.colors.cardBackground,
