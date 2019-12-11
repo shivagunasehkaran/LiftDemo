@@ -17,7 +17,7 @@ const HomeScreen = createStackNavigator({
 });
 
 const DetailScreen = createStackNavigator({
-    Home: {
+    Detail: {
         screen: Detail,
     },
 });
