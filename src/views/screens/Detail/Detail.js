@@ -17,7 +17,7 @@ class Detail extends Component {
                     {('Order of Execution is')}
                 </Text>
                 <Text style={styles.detailText}>
-                    {}
+                    {('No value')}
                 </Text>
             </View>
         );
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     detailText: {
         color: theme.colors.black,
         textAlign: 'center',
-        fontSize: 20,
+        fontSize: 22,
         marginTop: 20,
     },
 });
