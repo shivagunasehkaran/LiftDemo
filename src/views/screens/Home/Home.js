@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Button, Text, View, StyleSheet, FlatList, Alert} from 'react-native';
+import {Button, Text, View, StyleSheet, FlatList, Alert, ActivityIndicator} from 'react-native';
 import theme from '../../../themes';
 
 class Home extends Component {
@@ -15,6 +15,19 @@ class Home extends Component {
         ),
     });
 
+    constructor(props) {
+        super(props);
+        this.state = {
+            loading: true,
+        };
+    }
+
+    componentDidMount() {
+        this.setState({
+            loading: false,
+        });
+    }
+
     renderSeparator = () => {
         return (
             <View
@@ -26,12 +39,20 @@ class Home extends Component {
             />
         );
     };
+
     //handling onPress action
     getListViewItem = (item) => {
         Alert.alert(item.key);
     };
 
     render() {
+        if (this.state.loading) {
+            return (
+                <View style={styles.loader}>
+                    <ActivityIndicator size="large" color="orange" />
+                </View>
+            );
+        }
         return (
             <View style={styles.container}>
                 <FlatList
