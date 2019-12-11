@@ -1,10 +1,9 @@
 import React, {Component} from 'react';
-import {Text, View} from 'react-native';
-
+import {StyleSheet, Text, View} from 'react-native';
 import theme from '../../../themes';
 
 class Detail extends Component {
-    static navigationOptions = ({navigation}) => ({
+    static navigationOptions = () => ({
         title: ('Detail Screen'),
         headerStyle: {
             backgroundColor: theme.colors.buttonColor,
@@ -14,12 +13,30 @@ class Detail extends Component {
     render() {
         return (
             <View>
-                <Text>
-                    {('Detail')}
+                <Text style={styles.titleText}>
+                    {('Order of Execution is')}
+                </Text>
+                <Text style={styles.detailText}>
+                    {}
                 </Text>
             </View>
         );
     }
 }
+
+const styles = StyleSheet.create({
+    titleText: {
+        color: theme.colors.black,
+        textAlign: 'center',
+        fontSize: 25,
+        marginTop: 150,
+    },
+    detailText: {
+        color: theme.colors.black,
+        textAlign: 'center',
+        fontSize: 20,
+        marginTop: 20,
+    },
+});
 
 export default Detail;

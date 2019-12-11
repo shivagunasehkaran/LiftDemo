@@ -1,18 +1,13 @@
 import React, {Component} from 'react';
-import {Button, Text, View, StyleSheet, FlatList, Alert, ActivityIndicator} from 'react-native';
+import {Text, View, StyleSheet, FlatList, Alert, ActivityIndicator, TouchableOpacity} from 'react-native';
 import theme from '../../../themes';
 
 class Home extends Component {
-    static navigationOptions = ({navigation}) => ({
+    static navigationOptions = () => ({
         title: ('Home Screen'),
         headerStyle: {
             backgroundColor: theme.colors.buttonColor,
         },
-        headerRight: (
-            <Button title={('Start Run')}
-                    color="#000000"
-                    onPress={() => navigation.navigate('Detail')} />
-        ),
     });
 
     constructor(props) {
@@ -32,12 +27,16 @@ class Home extends Component {
         return (
             <View
                 style={{
-                    height: 1,
+                    height: 0.5,
                     width: '100%',
-                    backgroundColor: '#000',
+                    backgroundColor: theme.colors.black,
                 }}
             />
         );
+    };
+
+    handleStartRun = () => {
+        Alert.alert('Clicked');
     };
 
     //handling onPress action
@@ -70,6 +69,12 @@ class Home extends Component {
                               onPress={this.getListViewItem.bind(this, item)}>{item.key}</Text>}
                     ItemSeparatorComponent={this.renderSeparator}
                 />
+                <TouchableOpacity
+                    style={styles.startRunButton}
+                    onPress={() => this.handleStartRun}
+                    underlayColor='#fff'>
+                    <Text style={styles.startRunText}>Start Run</Text>
+                </TouchableOpacity>
             </View>
         );
     }
@@ -80,9 +85,23 @@ const styles = StyleSheet.create({
         flex: 1,
     },
     item: {
-        padding: 10,
-        fontSize: 18,
-        height: 100,
+        paddingTop: 30,
+        paddingLeft: 10,
+        fontSize: 19,
+        height: 90,
+    },
+    startRunButton: {
+        paddingTop: 15,
+        paddingBottom: 15,
+        backgroundColor: theme.colors.buttonColor,
+        borderRadius: 15,
+        borderWidth: 1,
+        borderColor: theme.colors.white,
+    },
+    startRunText: {
+        color: theme.colors.white,
+        textAlign: 'center',
+        fontSize: 15,
     },
 });
 
