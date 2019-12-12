@@ -7,8 +7,8 @@ import {
 import theme from '../../../../themes';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 
-// NOTE: this button inside the listview to press the up and down arrow buttons.
-// with maximum only 1 image & 1 text buttons
+// NOTE: this button inside the flat list to press the up and down arrow buttons.
+// with maximum 2 image & 2 text buttons
 const CustomLiftArrowButton = (props) => {
     const {
         item,

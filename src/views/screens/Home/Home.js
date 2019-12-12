@@ -27,18 +27,7 @@ class Home extends Component {
         });
     }
 
-    renderSeparator = () => {
-        return (
-            <View
-                style={{
-                    height: 0.5,
-                    width: '100%',
-                    backgroundColor: theme.colors.black,
-                }}
-            />
-        );
-    };
-
+    // to get ordered list and values display to details screen
     getOrderedLift = (upLiftArray, downLiftArray) => {
         upLiftArray.sort();
         downLiftArray.sort();
@@ -46,6 +35,7 @@ class Home extends Component {
 
         const orderedArray = upLiftArray.concat(downLiftArray);
 
+        // navigating to detail screen
         this.props.navigation.navigate('Detail', {
             orderedList: orderedArray,
         });
@@ -53,16 +43,17 @@ class Home extends Component {
         return orderedArray;
     };
 
-    //handling onPress action
+    //handling Up onPress action
     getUpLiftItem = (item) => {
         this.state.upliftArray.push(item.index);
     };
 
-    //handling onPress action
+    //handling Down onPress action
     getDownLiftItem = (item) => {
         this.state.downLiftArray.push(item.index);
     };
 
+    // flat list rendered items in reusable components
     renderItem = (item) => {
         return (
             <CustomLiftArrowButton
@@ -73,8 +64,21 @@ class Home extends Component {
         );
     };
 
+    // start run button press
     handleStartRun = () => {
         this.getOrderedLift(this.state.upliftArray, this.state.downLiftArray);
+    };
+
+    renderSeparator = () => {
+        return (
+            <View
+                style={{
+                    height: 0.5,
+                    width: '100%',
+                    backgroundColor: theme.colors.black,
+                }}
+            />
+        );
     };
 
     render() {
@@ -114,6 +118,9 @@ class Home extends Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+    },
+    loader: {
+        marginTop: 20,
     },
     startRunButton: {
         paddingTop: 15,
