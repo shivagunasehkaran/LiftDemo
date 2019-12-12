@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {ActivityIndicator, FlatList, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import theme from '../../../themes';
+import Icon from 'react-native-vector-icons/FontAwesome5';
 
 class Home extends Component {
     static navigationOptions = () => ({
@@ -42,10 +43,13 @@ class Home extends Component {
         uplLftArray.sort();
         downLiftArray.sort();
         downLiftArray.reverse();
+
         const orderedArray = uplLftArray.concat(downLiftArray);
+
         this.props.navigation.navigate('Detail', {
             orderedList: orderedArray,
         });
+
         return orderedArray;
     };
 
@@ -61,19 +65,46 @@ class Home extends Component {
 
     renderItem = (item) => {
         return (
-            <TouchableOpacity
-                style={{
-                    flex: 1,
-                }}>
-                <View style={{flexDirection: 'row'}}>
+            <View style={{flex: 1, flexDirection: 'row'}}>
+                <View style={{
+                    width: 100,
+                    backgroundColor: theme.colors.liftColor,
+                }} />
+                <TouchableOpacity onPress={this.getUpLiftItem.bind(this, item)}>
                     <View style={{
-                        width: 100,
-                        backgroundColor: theme.colors.liftColor,
-                    }} />
-                    <Text style={styles.item} onPress={this.getUpLiftItem.bind(this, item)}>{item.upLift}</Text>
-                    <Text style={styles.item} onPress={this.getDownLiftItem.bind(this, item)}>{item.downLift}</Text>
-                </View>
-            </TouchableOpacity>
+                        backgroundColor: theme.colors.cardBackground,
+                        width: 120,
+                        marginLeft: 30,
+                    }}>
+                        <Icon style={{marginLeft: 45, marginTop: 30, color: theme.colors.black}}
+                              name="arrow-up"
+                              size={25} />
+                        <Text style={{
+                            paddingTop: 20,
+                            paddingLeft: 20,
+                            fontSize: 19,
+                            height: 100,
+                        }}>{item.upLift}</Text>
+                    </View>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={this.getDownLiftItem.bind(this, item)}>
+                    <View style={{
+                        backgroundColor: theme.colors.cardBackground,
+                        width: 120,
+                        marginLeft: 30,
+                    }}>
+                        <Icon style={{marginLeft: 50, marginTop: 30, color: theme.colors.black}}
+                              name="arrow-down"
+                              size={25} />
+                        <Text style={{
+                            paddingTop: 20,
+                            paddingLeft: 10,
+                            fontSize: 19,
+                            height: 100,
+                        }}>{item.downLift}</Text>
+                    </View>
+                </TouchableOpacity>
+            </View>
         );
     };
 
@@ -119,19 +150,13 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
     },
-    item: {
-        paddingTop: 30,
-        paddingLeft: 50,
-        fontSize: 19,
-        height: 100,
-    },
     startRunButton: {
         paddingTop: 15,
         paddingBottom: 15,
         backgroundColor: theme.colors.buttonColor,
     },
     startRunText: {
-        color: theme.colors.cardBackground,
+        color: theme.colors.black,
         textAlign: 'center',
         fontSize: 15,
     },
