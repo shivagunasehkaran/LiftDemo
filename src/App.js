@@ -8,17 +8,20 @@ import Icon from 'react-native-vector-icons/FontAwesome5';
 import theme from './themes';
 import Home from './views/screens/Home/Home';
 import Detail from './views/screens/Detail/Detail';
-
+import About from './views/screens/About/About';
 
 const HomeScreen = createStackNavigator({
     Home: {
         screen: Home,
     },
-});
-
-const DetailScreen = createStackNavigator({
     Detail: {
         screen: Detail,
+    },
+});
+
+const AboutScreen = createStackNavigator({
+    About: {
+        screen: About,
     },
 });
 
@@ -36,12 +39,12 @@ const TabNavigator = createBottomTabNavigator(
                     <Icon name="home" size={horizontal ? 20 : 25} color={tintColor} />,
             },
         },
-        DetailScreen: {
-            screen: DetailScreen,
+        AboutScreen: {
+            screen: AboutScreen,
             navigationOptions: {
                 tabBarLabel: ({tintColor}) => (
                     <Text style={{textAlign: 'center', fontSize: 10, color: tintColor}}>
-                        {('Details')}
+                        {('About')}
                     </Text>
                 ),
                 tabBarIcon: ({horizontal, tintColor}) =>
