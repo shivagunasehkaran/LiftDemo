@@ -15,7 +15,7 @@ class Detail extends Component {
         return (
             <View>
                 <Text style={styles.titleText}>
-                    {('Order of Execution is')}
+                    {('Lift order of execution is')}
                 </Text>
                 <Text style={styles.detailText}>
                     {orderedList}
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
         color: theme.colors.black,
         textAlign: 'center',
         fontSize: 22,
-        marginTop: 20,
+        marginTop: 25,
     },
 });
 
