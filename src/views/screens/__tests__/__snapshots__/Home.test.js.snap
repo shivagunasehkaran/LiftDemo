@@ -1,0 +1,2485 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly detail screen 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    ItemSeparatorComponent={[Function]}
+    data={
+      Array [
+        Object {
+          "downLift": "Down Lift 6",
+          "index": 6,
+          "upLift": "Up Lift 6",
+        },
+        Object {
+          "downLift": "Down Lift 5",
+          "index": 5,
+          "upLift": "Up Lift 5",
+        },
+        Object {
+          "downLift": "Down Lift 4",
+          "index": 4,
+          "upLift": "Up Lift 4",
+        },
+        Object {
+          "downLift": "Down Lift 3",
+          "index": 3,
+          "upLift": "Up Lift 3",
+        },
+        Object {
+          "downLift": "Down Lift 2",
+          "index": 2,
+          "upLift": "Up Lift 2",
+        },
+        Object {
+          "downLift": "Down Lift 1",
+          "index": 1,
+          "upLift": "Up Lift 1",
+        },
+        Object {
+          "downLift": "Down Lift G",
+          "index": 0,
+          "upLift": "Up Lift G",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#00FF00",
+                "width": 100,
+              }
+            }
+          />
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 45,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 20,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Up Lift 6
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 50,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 10,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Down Lift 6
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#000000",
+              "height": 0.5,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#00FF00",
+                "width": 100,
+              }
+            }
+          />
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 45,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 20,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Up Lift 5
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 50,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 10,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Down Lift 5
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#000000",
+              "height": 0.5,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#00FF00",
+                "width": 100,
+              }
+            }
+          />
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 45,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 20,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Up Lift 4
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 50,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 10,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Down Lift 4
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#000000",
+              "height": 0.5,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#00FF00",
+                "width": 100,
+              }
+            }
+          />
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 45,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 20,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Up Lift 3
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 50,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 10,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Down Lift 3
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#000000",
+              "height": 0.5,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#00FF00",
+                "width": 100,
+              }
+            }
+          />
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 45,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 20,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Up Lift 2
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 50,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 10,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Down Lift 2
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#000000",
+              "height": 0.5,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#00FF00",
+                "width": 100,
+              }
+            }
+          />
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 45,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 20,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Up Lift 1
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 50,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 10,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Down Lift 1
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#000000",
+              "height": 0.5,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#00FF00",
+                "width": 100,
+              }
+            }
+          />
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 45,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 20,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Up Lift G
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 50,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 10,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Down Lift G
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    accessible={true}
+    focusable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "orange",
+        "opacity": 1,
+        "paddingBottom": 15,
+        "paddingTop": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 15,
+          "textAlign": "center",
+        }
+      }
+    >
+      Start Run
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`renders correctly home screen 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    ItemSeparatorComponent={[Function]}
+    data={
+      Array [
+        Object {
+          "downLift": "Down Lift 6",
+          "index": 6,
+          "upLift": "Up Lift 6",
+        },
+        Object {
+          "downLift": "Down Lift 5",
+          "index": 5,
+          "upLift": "Up Lift 5",
+        },
+        Object {
+          "downLift": "Down Lift 4",
+          "index": 4,
+          "upLift": "Up Lift 4",
+        },
+        Object {
+          "downLift": "Down Lift 3",
+          "index": 3,
+          "upLift": "Up Lift 3",
+        },
+        Object {
+          "downLift": "Down Lift 2",
+          "index": 2,
+          "upLift": "Up Lift 2",
+        },
+        Object {
+          "downLift": "Down Lift 1",
+          "index": 1,
+          "upLift": "Up Lift 1",
+        },
+        Object {
+          "downLift": "Down Lift G",
+          "index": 0,
+          "upLift": "Up Lift G",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#00FF00",
+                "width": 100,
+              }
+            }
+          />
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 45,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 20,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Up Lift 6
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 50,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 10,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Down Lift 6
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#000000",
+              "height": 0.5,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#00FF00",
+                "width": 100,
+              }
+            }
+          />
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 45,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 20,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Up Lift 5
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 50,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 10,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Down Lift 5
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#000000",
+              "height": 0.5,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#00FF00",
+                "width": 100,
+              }
+            }
+          />
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 45,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 20,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Up Lift 4
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 50,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 10,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Down Lift 4
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#000000",
+              "height": 0.5,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#00FF00",
+                "width": 100,
+              }
+            }
+          />
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 45,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 20,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Up Lift 3
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 50,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 10,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Down Lift 3
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#000000",
+              "height": 0.5,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#00FF00",
+                "width": 100,
+              }
+            }
+          />
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 45,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 20,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Up Lift 2
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 50,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 10,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Down Lift 2
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#000000",
+              "height": 0.5,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#00FF00",
+                "width": 100,
+              }
+            }
+          />
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 45,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 20,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Up Lift 1
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 50,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 10,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Down Lift 1
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#000000",
+              "height": 0.5,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#00FF00",
+                "width": 100,
+              }
+            }
+          />
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 45,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 20,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Up Lift G
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginLeft": 30,
+                  "width": 120,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginLeft": 50,
+                      "marginTop": 30,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome5Free-Solid",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "900",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 19,
+                    "height": 100,
+                    "paddingLeft": 10,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                Down Lift G
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    accessible={true}
+    focusable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "orange",
+        "opacity": 1,
+        "paddingBottom": 15,
+        "paddingTop": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 15,
+          "textAlign": "center",
+        }
+      }
+    >
+      Start Run
+    </Text>
+  </View>
+</View>
+`;

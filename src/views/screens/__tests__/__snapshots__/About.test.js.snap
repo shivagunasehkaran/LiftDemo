@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly about screen 1`] = `
+<View>
+  <Text
+    style={
+      Object {
+        "color": "#000000",
+        "fontSize": 18,
+        "marginTop": 200,
+        "padding": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    The sample Lift App developed for demo purpose and This App is only for showing the lift logic and UI designs.
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 22,
+        "fontWeight": "bold",
+        "marginTop": 100,
+        "textAlign": "center",
+      }
+    }
+  >
+    Shiva Gunasehkaran
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 15,
+        "fontWeight": "bold",
+        "marginTop": 10,
+        "textAlign": "center",
+      }
+    }
+  >
+    Contact me at +91 9500936053
+  </Text>
+</View>
+`;
