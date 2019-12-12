@@ -1,0 +1,7 @@
+{
+  "appName": "Lift Demo",
+  "navigation": {
+    "home": "Home",
+    "about": "About"
+  }
+}
