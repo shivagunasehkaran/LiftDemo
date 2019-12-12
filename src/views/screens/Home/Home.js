@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {ActivityIndicator, FlatList, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import theme from '../../../themes';
-import Icon from 'react-native-vector-icons/FontAwesome5';
+import CustomLiftArrowButton from '../../components/button/CustomLiftArrowButton';
 
 class Home extends Component {
     static navigationOptions = () => ({
@@ -39,12 +39,12 @@ class Home extends Component {
         );
     };
 
-    getOrderedLift = (uplLftArray, downLiftArray) => {
-        uplLftArray.sort();
+    getOrderedLift = (upLiftArray, downLiftArray) => {
+        upLiftArray.sort();
         downLiftArray.sort();
         downLiftArray.reverse();
 
-        const orderedArray = uplLftArray.concat(downLiftArray);
+        const orderedArray = upLiftArray.concat(downLiftArray);
 
         this.props.navigation.navigate('Detail', {
             orderedList: orderedArray,
@@ -65,46 +65,11 @@ class Home extends Component {
 
     renderItem = (item) => {
         return (
-            <View style={{flex: 1, flexDirection: 'row'}}>
-                <View style={{
-                    width: 100,
-                    backgroundColor: theme.colors.liftColor,
-                }} />
-                <TouchableOpacity onPress={this.getUpLiftItem.bind(this, item)}>
-                    <View style={{
-                        backgroundColor: theme.colors.cardBackground,
-                        width: 120,
-                        marginLeft: 30,
-                    }}>
-                        <Icon style={{marginLeft: 45, marginTop: 30, color: theme.colors.black}}
-                              name="arrow-up"
-                              size={25} />
-                        <Text style={{
-                            paddingTop: 20,
-                            paddingLeft: 20,
-                            fontSize: 19,
-                            height: 100,
-                        }}>{item.upLift}</Text>
-                    </View>
-                </TouchableOpacity>
-                <TouchableOpacity onPress={this.getDownLiftItem.bind(this, item)}>
-                    <View style={{
-                        backgroundColor: theme.colors.cardBackground,
-                        width: 120,
-                        marginLeft: 30,
-                    }}>
-                        <Icon style={{marginLeft: 50, marginTop: 30, color: theme.colors.black}}
-                              name="arrow-down"
-                              size={25} />
-                        <Text style={{
-                            paddingTop: 20,
-                            paddingLeft: 10,
-                            fontSize: 19,
-                            height: 100,
-                        }}>{item.downLift}</Text>
-                    </View>
-                </TouchableOpacity>
-            </View>
+            <CustomLiftArrowButton
+                item={item}
+                upArrowButtonOnPress={this.getUpLiftItem.bind(this, item)}
+                downArrowButtonOnPress={this.getDownLiftItem.bind(this, item)}
+            />
         );
     };
 
